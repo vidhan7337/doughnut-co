@@ -1,0 +1,437 @@
+{
+  "categories": [
+    { "id": "donuts",      "label": "Donuts",      "icon": "🍩" },
+    { "id": "specialty",   "label": "Specialty",   "icon": "⭐" },
+    { "id": "bagels",      "label": "Bagels",      "icon": "🥯" },
+    { "id": "breakfast",   "label": "Breakfast",   "icon": "🍳" },
+    { "id": "sandwiches",  "label": "Sandwiches",  "icon": "🥪" },
+    { "id": "coffee",      "label": "Coffee",      "icon": "☕" },
+    { "id": "extras",      "label": "Extras",      "icon": "➕" }
+  ],
+
+  "donutPricing": {
+    "single":    2.49,
+    "halfDozen": 13.99,
+    "dozen":     26.99,
+    "note": "Specialty items not included in dozen & half dozen deals"
+  },
+
+  "donutGroups": [
+    {
+      "name": "Classic & Fruity",
+      "icon": "🍓",
+      "color": "pink",
+      "items": [
+        { "id": "strawberry-sprinkle",         "name": "Strawberry Sprinkle",         "image": "/images/donuts/strawberry-sprinkle.jpg" },
+        { "id": "strawberry-cake",             "name": "Strawberry Cake",             "image": "/images/donuts/strawberry-cake.jpg" },
+        { "id": "strawberry-chocolate",        "name": "Strawberry Chocolate",        "image": "/images/donuts/strawberry.jpg" },
+        { "id": "raspberry",                   "name": "Raspberry",                   "image": "/images/donuts/raspberry.jpg" },
+        { "id": "raspberry-old-fashioned",     "name": "Raspberry Old Fashioned",     "image": "/images/donuts/raspberry-lemon-old-fashioned.jpg" },
+        { "id": "cherry-chocolate",            "name": "Cherry Chocolate",            "image": "/images/donuts/cherry.jpg" },
+        { "id": "blueberry",                   "name": "Blueberry",                   "image": "/images/donuts/blueberry.jpg" },
+        { "id": "apple-cinnamon",              "name": "Apple Cinnamon",              "image": "/images/donuts/apple-cinnamon.jpg" },
+        { "id": "lemon-plain-cake",            "name": "Lemon Plain Cake",            "image": "/images/donuts/lemon-plain-cake.jpg" }
+      ]
+    },
+    {
+      "name": "Specialty & Premium",
+      "icon": "⭐",
+      "color": "purple",
+      "items": [
+        { "id": "confetti-birthday",  "name": "Confetti Birthday",  "image": "/images/donuts/confetti-birthday.jpg" },
+        { "id": "swiss-chocolate",    "name": "Swiss Chocolate",    "image": "/images/donuts/swiss-chocolate.jpg" },
+        { "id": "taffy-apple",        "name": "Taffy Apple",        "image": "/images/donuts/taffy-apple.jpg" },
+        { "id": "german-chocolate",   "name": "German Chocolate",   "image": "/images/donuts/german-chocolate.jpg" },
+        { "id": "french-vanilla",     "name": "French Vanilla",     "image": "/images/donuts/french-vanilla.jpg" },
+        { "id": "bavarian-cream",     "name": "Bavarian Cream",     "image": "/images/donuts/bavarian-cream.jpg" },
+        { "id": "angel-cream",        "name": "Angel Cream",        "image": "/images/donuts/angel-cream.jpg" },
+        { "id": "chocolate-angel",    "name": "Chocolate Angel",    "image": "/images/donuts/chocolate-angel.jpg" }
+      ]
+    },
+    {
+      "name": "Chocolate Lovers",
+      "icon": "🍫",
+      "color": "amber",
+      "items": [
+        { "id": "chocolate-raised",          "name": "Chocolate Raised",          "image": "/images/donuts/chocolate-raised.jpg" },
+        { "id": "chocolate-cake",            "name": "Chocolate Cake",            "image": "/images/donuts/chocolate-cake.jpg" },
+        { "id": "double-chocolate",          "name": "Double Chocolate",          "image": "/images/donuts/double-chocolate.jpg" },
+        { "id": "chocolate-sprinkle",        "name": "Chocolate Sprinkle",        "image": "/images/donuts/chocolate-sprinkle.jpg" },
+        { "id": "chocolate-raised-sprinkle", "name": "Choc Raised Sprinkle",      "image": "/images/donuts/chocolate-raised-sprinkle.jpg" },
+        { "id": "chocolate-old-fashioned",   "name": "Choc Old Fashioned",        "image": "/images/donuts/chocolate-old-fashioned.jpg" }
+      ]
+    },
+    {
+      "name": "Classic Favorites",
+      "icon": "🍩",
+      "color": "sky",
+      "items": [
+        { "id": "glazed",          "name": "Glazed",          "image": "/images/donuts/glazed.jpg" },
+        { "id": "powder-sugar",    "name": "Powdered Sugar",  "image": "/images/donuts/powder-sugar.jpg" },
+        { "id": "cinnamon-sugar",  "name": "Cinnamon Sugar",  "image": "/images/donuts/cinnamon-sugar.jpg" },
+        { "id": "sour-cream",      "name": "Sour Cream",      "image": "/images/donuts/sour-cream.jpg" },
+        { "id": "vanilla-raised",  "name": "Vanilla Raised",  "image": "/images/donuts/vanilla-raised.jpg" },
+        { "id": "vanilla-sprinkle","name": "Vanilla Sprinkle","image": "/images/donuts/vanilla-sprinkle.jpg" }
+      ]
+    },
+    {
+      "name": "Coconut & Nutty",
+      "icon": "🥥",
+      "color": "yellow",
+      "items": [
+        { "id": "toasted-coconut", "name": "Toasted Coconut", "image": "/images/donuts/toasted-coconut.jpg" },
+        { "id": "white-coconut",   "name": "White Coconut",   "image": "/images/donuts/white-coconut.jpg" },
+        { "id": "peanut",          "name": "Peanut",          "image": "/images/donuts/peanut.jpg" }
+      ]
+    },
+    {
+      "name": "Twists & Long Johns",
+      "icon": "🌀",
+      "color": "emerald",
+      "items": [
+        { "id": "glazed-twist",          "name": "Glazed Twist",          "image": "/images/donuts/glazed-twist.jpg" },
+        { "id": "cinnamon-twist",        "name": "Cinnamon Twist",        "image": "/images/donuts/cinnamon-twist.jpg" },
+        { "id": "cinnamon-roll",         "name": "Cinnamon Roll",         "image": "/images/donuts/cinnamon-roll.jpg" },
+        { "id": "long-john-vanilla",     "name": "Long John Vanilla",     "image": "/images/donuts/long-john-vanilla.jpg" },
+        { "id": "long-john-chocolate",   "name": "Long John Chocolate",   "image": "/images/donuts/long-john-chocolate.jpg" },
+        { "id": "angel-cream-long-john", "name": "Angel Cream Long John", "image": "/images/donuts/angel-cream-long-john.jpg" }
+      ]
+    },
+    {
+      "name": "Filled Donuts",
+      "icon": "🎉",
+      "color": "rose",
+      "items": [
+        { "id": "iced-jelly",   "name": "Iced Jelly",    "image": "/images/donuts/iced-jelly.jpg" },
+        { "id": "french",       "name": "French Cruller", "image": "/images/donuts/french.jpg" },
+        { "id": "maple",        "name": "Maple",          "image": "/images/donuts/maple.jpg" },
+        { "id": "apple-fritter","name": "Apple Fritter",  "image": "/images/donuts/apple-fritter.jpg" },
+        { "id": "lemon",        "name": "Lemon",          "image": "/images/donuts/lemon.jpg" }
+      ]
+    }
+  ],
+
+  "bagelFlavorItems": [
+    { "id": "plain-bagel",          "name": "Plain",          "image": "/images/bagels/plain-bagel.jpg" },
+    { "id": "sesame-bagel",         "name": "Sesame",         "image": "/images/bagels/sesame-bagel.jpg" },
+    { "id": "onion-bagel",          "name": "Onion",          "image": "/images/bagels/onion-bagel.jpg" },
+    { "id": "cinnamon-raisin-bagel","name": "Cinnamon Raisin","image": "/images/bagels/cinnamon-raisin-bagel.jpg" },
+    { "id": "french-toast-bagel",   "name": "French Toast",   "image": "/images/bagels/french-toast-bagel.jpg" },
+    { "id": "everything-bagel",     "name": "Everything",     "image": "/images/bagels/everything-bagel.jpg" },
+    { "id": "poppyseed-bagel",      "name": "Poppy Seed",     "image": "/images/bagels/poppyseed-bagel.jpg" },
+    { "id": "garlic-bagel",         "name": "Garlic",         "image": "/images/bagels/garlic-bagel.jpg" },
+    { "id": "blueberry-bagel",      "name": "Blueberry",      "image": "/images/bagels/blueberry-bagel.jpg" },
+    { "id": "jalapeno-bagel",       "name": "Jalapeño",       "image": "/images/bagels/jalapeno-bagel.jpg" }
+  ],
+
+  "creamCheeseFlavors": [
+    "Plain", "Strawberry", "Scallion", "Garlic",
+    "Blueberry", "Vegetable", "Honey Almond", "Chocolate Chip",
+    "Jalapeño Cheddar", "Cucumber Dill Pickle", "White Choc Raspberry"
+  ],
+
+  "items": {
+    "specialty": [
+      {
+        "id": "apple-fritter",
+        "name": "Apple Fritter",
+        "price": 4.39,
+        "description": "Golden fried dough with fresh apple chunks and cinnamon glaze",
+        "image": "/images/donuts/apple-fritter.jpg",
+        "badge": "Fan Favorite"
+      },
+      {
+        "id": "cinnamon-roll",
+        "name": "Cinnamon Roll",
+        "price": 3.99,
+        "description": "Soft warm roll with sweet cinnamon filling and icing",
+        "image": "/images/donuts/cinnamon-roll.jpg"
+      },
+      {
+        "id": "red-velvet",
+        "name": "Red Velvet",
+        "price": 2.99,
+        "description": "Classic red velvet donut with cream cheese icing",
+        "image": "/images/donuts/red-velvet.jpg"
+      },
+      {
+        "id": "angel-cream-long-john",
+        "name": "Angel Cream Long John",
+        "price": 2.39,
+        "description": "Fluffy long john filled with light angel cream",
+        "image": "/images/donuts/angel-cream-long-john.jpg"
+      },
+      {
+        "id": "maple-bacon-long-john",
+        "name": "Maple Bacon Long John",
+        "price": 3.39,
+        "description": "Sweet maple glaze topped with crispy bacon bits",
+        "image": "/images/donuts/maple-bacon.jpg",
+        "badge": "Popular"
+      },
+      {
+        "id": "glazed-twist",
+        "name": "Twists",
+        "price": 3.49,
+        "description": "Braided golden fried dough with sweet glaze",
+        "image": "/images/donuts/glazed-twist.jpg"
+      },
+      {
+        "id": "birthday-donut",
+        "name": "Birthday Donuts",
+        "price": 28.99,
+        "description": "Custom shaped donuts — choose icing, filling & sprinkles. Order 24 hrs in advance.",
+        "image": "/images/donuts/confetti-birthday.jpg",
+        "badge": "Custom Order"
+      }
+    ],
+
+    "bagels": [
+      {
+        "id": "bagel-plain",
+        "name": "Bagel",
+        "price": 2.29,
+        "description": "Fresh baked bagel — choose your flavor from 10 options",
+        "image": "/images/bagels/plain-bagel.jpg"
+      },
+      {
+        "id": "bagel-cream-cheese",
+        "name": "Bagel with Cream Cheese",
+        "price": 4.59,
+        "description": "Fresh bagel with your choice of cream cheese flavor",
+        "image": "/images/bagels/garlic-bagel.jpg",
+        "badge": "Popular"
+      },
+      {
+        "id": "bagel-half-dozen",
+        "name": "Half Dozen Bagels",
+        "price": 11.99,
+        "description": "Six bagels — with 1 tub of cream cheese $15.99",
+        "image": "/images/bagels/sesame-bagel.jpg"
+      },
+      {
+        "id": "bagel-bakers-dozen",
+        "name": "Baker's Dozen (13)",
+        "price": 19.99,
+        "description": "Thirteen bagels — with 2 tubs of cream cheese $25.99",
+        "image": "/images/bagels/everything-bagel.jpg",
+        "badge": "Best Value"
+      },
+      {
+        "id": "cream-cheese-side",
+        "name": "Side of Cream Cheese",
+        "price": 2.30,
+        "description": "Choose from our 11 cream cheese flavors",
+        "image": "/images/bagels/egg-bagel.jpg"
+      },
+      {
+        "id": "cream-cheese-tub",
+        "name": "Tub of Cream Cheese",
+        "price": 5.89,
+        "description": "Full tub — choose any of our 11 flavors",
+        "image": "/images/bagels/egg-everything-bagel.jpg"
+      }
+    ],
+
+    "breakfast": [
+      {
+        "id": "egg-cheese",
+        "name": "Egg & Cheese",
+        "price": 5.89,
+        "description": "Fresh egg and melted cheese on a toasted bagel",
+        "image": "/images/bagels/egg-bagel.jpg"
+      },
+      {
+        "id": "bacon-egg-cheese",
+        "name": "Bacon, Egg & Cheese",
+        "price": 6.89,
+        "description": "Crispy bacon, egg, and melted cheese on a bagel",
+        "image": "/images/bagels/egg-everything-bagel.jpg",
+        "badge": "Popular"
+      },
+      {
+        "id": "sausage-egg-cheese",
+        "name": "Sausage, Egg & Cheese",
+        "price": 6.89,
+        "description": "Savory sausage patty, egg, and cheese on a bagel",
+        "image": "/images/bagels/egg-bagel.jpg"
+      },
+      {
+        "id": "ham-egg-cheese",
+        "name": "Ham, Egg & Cheese",
+        "price": 6.89,
+        "description": "Sliced ham, egg, and cheese on a toasted bagel",
+        "image": "/images/bagels/egg-everything-bagel.jpg"
+      },
+      {
+        "id": "all-american",
+        "name": "All-American Breakfast",
+        "price": 8.99,
+        "description": "Sausage, bacon, egg, cheese & cream cheese on a bagel",
+        "image": "/images/bagels/everything-bagel.jpg",
+        "badge": "Chef's Pick"
+      },
+      {
+        "id": "lox-salmon",
+        "name": "Lox Salmon & Cream Cheese",
+        "price": 15.99,
+        "description": "Premium lox salmon with cream cheese, tomato, onion & capers",
+        "image": "/images/bagels/plain-bagel.jpg",
+        "badge": "Premium"
+      },
+      {
+        "id": "avocado-toast",
+        "name": "Avocado Toast",
+        "price": 6.99,
+        "description": "Fresh creamy avocado spread on a toasted bagel",
+        "image": "/images/bagels/french-toast-bagel.jpg"
+      },
+      {
+        "id": "pbj",
+        "name": "Peanut Butter & Jelly",
+        "price": 3.99,
+        "description": "Classic PB&J served on a fresh bagel",
+        "image": "/images/bagels/cinnamon-raisin-bagel.jpg"
+      }
+    ],
+
+    "sandwiches": [
+      {
+        "id": "turkey-swiss",
+        "name": "Turkey & Swiss",
+        "price": 9.89,
+        "description": "Turkey, Swiss, lettuce, tomato, onion, mustard & mayo",
+        "image": "/images/bagels/everything-bagel.jpg",
+        "badge": "Popular"
+      },
+      {
+        "id": "ham-swiss",
+        "name": "Ham & Swiss",
+        "price": 9.89,
+        "description": "Ham, Swiss, lettuce, tomato, onion, mustard & mayo",
+        "image": "/images/bagels/sesame-bagel.jpg"
+      },
+      {
+        "id": "turkey-club",
+        "name": "Turkey Club",
+        "price": 9.99,
+        "description": "Turkey, bacon, lettuce, tomato & mayo on a bagel",
+        "image": "/images/bagels/everything-bagel.jpg"
+      },
+      {
+        "id": "blt",
+        "name": "BLT",
+        "price": 8.69,
+        "description": "Crispy bacon, fresh lettuce, ripe tomato & mayo",
+        "image": "/images/bagels/onion-bagel.jpg"
+      },
+      {
+        "id": "veggie-avocado",
+        "name": "Veggie Avocado",
+        "price": 9.79,
+        "description": "Avocado, lettuce, tomato, onion, spinach & cucumbers",
+        "image": "/images/bagels/plain-bagel.jpg"
+      },
+      {
+        "id": "pizza-bagel",
+        "name": "Pizza Bagel",
+        "price": 8.49,
+        "description": "Classic pizza sauce and melted cheese on a bagel. Add pepperoni +$0.49",
+        "image": "/images/bagels/garlic-bagel.jpg"
+      },
+      {
+        "id": "reuben",
+        "name": "Reuben",
+        "price": 9.99,
+        "description": "Corned beef, Swiss cheese, sauerkraut & Thousand Island dressing",
+        "image": "/images/bagels/everything-bagel.jpg",
+        "badge": "Chef's Pick"
+      }
+    ],
+
+    "coffee": [
+      {
+        "id": "drip-coffee",
+        "name": "Drip Coffee",
+        "price": 2.45,
+        "priceLabel": "from $2.45",
+        "sizes": { "S": 2.45, "M": 2.85, "L": 3.15 },
+        "description": "Freshly brewed premium drip coffee",
+        "image": "/images/coffee/drip-coffee.jpg"
+      },
+      {
+        "id": "latte",
+        "name": "Latte",
+        "price": 3.50,
+        "priceLabel": "from $3.50",
+        "sizes": { "S": 3.50, "M": 4.00, "L": 4.50 },
+        "description": "Smooth espresso with velvety steamed milk",
+        "image": "/images/coffee/latte.jpg",
+        "badge": "Popular"
+      },
+      {
+        "id": "cappuccino",
+        "name": "Cappuccino",
+        "price": 3.50,
+        "priceLabel": "from $3.50",
+        "sizes": { "S": 3.50, "M": 4.00, "L": 4.50 },
+        "description": "Rich espresso with steamed milk and thick velvety foam",
+        "image": "/images/coffee/cappuccino.jpg"
+      },
+      {
+        "id": "americano",
+        "name": "Americano",
+        "price": 2.75,
+        "priceLabel": "from $2.75",
+        "sizes": { "S": 2.75, "M": 3.25, "L": 3.75 },
+        "description": "Bold espresso shots with hot water",
+        "image": "/images/coffee/americano.jpg"
+      },
+      {
+        "id": "mocha",
+        "name": "Mocha",
+        "price": 4.25,
+        "priceLabel": "from $4.25",
+        "sizes": { "S": 4.25, "M": 4.75, "L": 5.25 },
+        "description": "Espresso with rich chocolate sauce and steamed milk",
+        "image": "/images/coffee/mocha.jpg"
+      },
+      {
+        "id": "caramel-macchiato",
+        "name": "Caramel Macchiato",
+        "price": 4.25,
+        "priceLabel": "from $4.25",
+        "sizes": { "S": 4.25, "M": 4.75, "L": 5.25 },
+        "description": "Vanilla espresso layered with milk and caramel drizzle",
+        "image": "/images/coffee/caramel-macchiato.jpg",
+        "badge": "Popular"
+      },
+      {
+        "id": "hot-chocolate",
+        "name": "Hot Chocolate",
+        "price": 2.25,
+        "priceLabel": "from $2.25",
+        "sizes": { "S": 2.25, "M": 2.50, "L": 2.75 },
+        "description": "Rich and creamy hot chocolate made fresh",
+        "image": "/images/coffee/hot-chocolate.jpg"
+      },
+      {
+        "id": "espresso-macchiato",
+        "name": "Espresso Macchiato",
+        "price": 1.75,
+        "priceLabel": "$1.75 / $2.25",
+        "description": "Single $1.75 · Double $2.25",
+        "image": "/images/coffee/espresso.jpg"
+      }
+    ],
+
+    "extras": [
+      { "id": "extra-avocado", "name": "Avocado",      "price": 2.49, "description": "Fresh sliced avocado",    "image": "/images/extras/avocado.jpg" },
+      { "id": "extra-egg",     "name": "Egg",          "price": 2.49, "description": "Add a fresh egg",         "image": "/images/extras/egg.jpg" },
+      { "id": "extra-butter",  "name": "Butter",       "price": 0.69, "description": "Creamy butter",           "image": "/images/extras/butter.jpg" },
+      { "id": "extra-jelly",   "name": "Jelly",        "price": 0.69, "description": "Sweet fruit jelly",       "image": "/images/extras/jelly.jpg" },
+      { "id": "extra-cheese",  "name": "Cheese Slice", "price": 1.09, "description": "Melted cheese slice",     "image": "/images/extras/cheese.jpg" },
+      { "id": "extra-meat",    "name": "Extra Meat",   "price": 1.99, "description": "Extra protein on any item","image": "/images/extras/meat.jpg" }
+    ]
+  }
+}
