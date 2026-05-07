@@ -60,7 +60,7 @@ export default function MenuCard({
     <div className="group bg-white rounded-2xl overflow-hidden card-hover border border-gray-100 shadow-sm">
       {/* Image */}
       <div className="relative h-44 overflow-hidden">
-        {!imgError ? (
+        {item.image && !imgError ? (
           <img
             src={img(item.image)}
             alt={item.name}
