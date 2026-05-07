@@ -103,7 +103,7 @@
         {
           "id": "confetti-birthday",
           "name": "Confetti Birthday",
-          "image": "/images/donuts/confetti-birthday.jpg"
+          "image": "/images/donuts/birthday2.jpg"
         },
         {
           "id": "swiss-chocolate",
@@ -361,17 +361,61 @@
     }
   ],
   "creamCheeseFlavors": [
-    "Plain",
-    "Strawberry",
-    "Scallion",
-    "Garlic",
-    "Blueberry",
-    "Vegetable",
-    "Honey Almond",
-    "Chocolate Chip",
-    "Jalapeño Cheddar",
-    "Cucumber Dill Pickle",
-    "White Choc Raspberry"
+    {
+      "id": "plain-cc",
+      "name": "Plain",
+      "image": "/images/cream-cheese/plain.jpg"
+    },
+    {
+      "id": "strawberry-cc",
+      "name": "Strawberry",
+      "image": "/images/cream-cheese/strawberry.jpg"
+    },
+    {
+      "id": "scallion-cc",
+      "name": "Scallion",
+      "image": "/images/cream-cheese/scallion.jpg"
+    },
+    {
+      "id": "garlic-cc",
+      "name": "Garlic",
+      "image": "/images/cream-cheese/garlic.jpg"
+    },
+    {
+      "id": "blueberry-cc",
+      "name": "Blueberry",
+      "image": "/images/cream-cheese/blueberry.jpg"
+    },
+    {
+      "id": "vegetable-cc",
+      "name": "Vegetable",
+      "image": "/images/cream-cheese/vegetable.jpg"
+    },
+    {
+      "id": "honey-almond-cc",
+      "name": "Honey Almond",
+      "image": "/images/cream-cheese/honey-almond.jpg"
+    },
+    {
+      "id": "chocolate-chip-cc",
+      "name": "Chocolate Chip",
+      "image": "/images/cream-cheese/chocolate-chip.jpg"
+    },
+    {
+      "id": "jalapeno-cheddar-cc",
+      "name": "Jalapeño Cheddar",
+      "image": "/images/cream-cheese/jalapeno-cheddar.jpg"
+    },
+    {
+      "id": "cucumber-dill-cc",
+      "name": "Cucumber Dill Pickle",
+      "image": "/images/cream-cheese/cucumber-dill-pickle.jpg"
+    },
+    {
+      "id": "white-choc-cc",
+      "name": "White Choc Raspberry",
+      "image": ""
+    }
   ],
   "items": {
     "specialty": [
@@ -424,8 +468,16 @@
         "name": "Birthday Donuts",
         "price": 28.99,
         "description": "Custom shaped donuts — choose icing, filling & sprinkles. Order 24 hrs in advance.",
-        "image": "/images/donuts/confetti-birthday.jpg",
+        "image": "/images/donuts/birthday1.jpg",
         "badge": "Custom Order"
+      },
+      {
+        "id": "box-of-joe",
+        "name": "Box of Joe",
+        "price": 24.99,
+        "description": "A full box of freshly brewed coffee — perfect for groups",
+        "image": "/images/specialty/box-of-joe.jpg",
+        "badge": "Group Order"
       }
     ],
     "bagels": [

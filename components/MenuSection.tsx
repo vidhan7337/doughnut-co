@@ -35,7 +35,7 @@ export default function MenuSection({
   items: MenuItem[];
   index?: number;
   bagelFlavorItems?: BagelFlavorItem[];
-  creamCheeseFlavors?: string[];
+  creamCheeseFlavors?: BagelFlavorItem[];
 }) {
   if (!items?.length) return null;
 

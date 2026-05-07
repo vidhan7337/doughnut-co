@@ -81,8 +81,8 @@ export default function Footer() {
             </h4>
             <div className="flex flex-wrap gap-1.5">
               {creamCheeseFlavors.map((f) => (
-                <span key={f} className="text-xs bg-rose-500/8 border border-rose-500/15 text-rose-200/50 px-2.5 py-1 rounded-full font-[family-name:var(--font-inter)]">
-                  {f}
+                <span key={f.id} className="text-xs bg-rose-500/8 border border-rose-500/15 text-rose-200/50 px-2.5 py-1 rounded-full font-[family-name:var(--font-inter)]">
+                  {f.name}
                 </span>
               ))}
             </div>
