@@ -34,6 +34,16 @@
       "id": "extras",
       "label": "Extras",
       "icon": "➕"
+    },
+    {
+      "id": "birthday-cake",
+      "label": "Birthday Cake",
+      "icon": "🎂"
+    },
+    {
+      "id": "box-of-joe",
+      "label": "Box of Joe",
+      "icon": "📦"
     }
   ],
   "donutPricing": {
@@ -96,24 +106,19 @@
       ]
     },
     {
-      "name": "Specialty & Premium",
+      "name": "Elite",
       "icon": "⭐",
       "color": "purple",
       "items": [
         {
           "id": "confetti-birthday",
           "name": "Confetti Birthday",
-          "image": "/images/donuts/birthday2.jpg"
+          "image": "/images/donuts/confetti-birthday.jpg"
         },
         {
           "id": "swiss-chocolate",
           "name": "Swiss Chocolate",
           "image": "/images/donuts/swiss-chocolate.jpg"
-        },
-        {
-          "id": "taffy-apple",
-          "name": "Taffy Apple",
-          "image": "/images/donuts/taffy-apple.jpg"
         },
         {
           "id": "german-chocolate",
@@ -235,6 +240,11 @@
           "id": "peanut",
           "name": "Peanut",
           "image": "/images/donuts/peanut.jpg"
+        },
+        {
+          "id": "taffy-apple",
+          "name": "Taffy Apple",
+          "image": "/images/donuts/taffy-apple.jpg"
         }
       ]
     },
@@ -244,21 +254,6 @@
       "color": "emerald",
       "items": [
         {
-          "id": "glazed-twist",
-          "name": "Glazed Twist",
-          "image": "/images/donuts/glazed-twist.jpg"
-        },
-        {
-          "id": "cinnamon-twist",
-          "name": "Cinnamon Twist",
-          "image": "/images/donuts/cinnamon-twist.jpg"
-        },
-        {
-          "id": "cinnamon-roll",
-          "name": "Cinnamon Roll",
-          "image": "/images/donuts/cinnamon-roll.jpg"
-        },
-        {
           "id": "long-john-vanilla",
           "name": "Long John Vanilla",
           "image": "/images/donuts/long-john-vanilla.jpg"
@@ -267,11 +262,6 @@
           "id": "long-john-chocolate",
           "name": "Long John Chocolate",
           "image": "/images/donuts/long-john-chocolate.jpg"
-        },
-        {
-          "id": "angel-cream-long-john",
-          "name": "Angel Cream Long John",
-          "image": "/images/donuts/angel-cream-long-john.jpg"
         }
       ]
     },
@@ -294,11 +284,6 @@
           "id": "maple",
           "name": "Maple",
           "image": "/images/donuts/maple.jpg"
-        },
-        {
-          "id": "apple-fritter",
-          "name": "Apple Fritter",
-          "image": "/images/donuts/apple-fritter.jpg"
         },
         {
           "id": "lemon",
@@ -410,11 +395,6 @@
       "id": "cucumber-dill-cc",
       "name": "Cucumber Dill Pickle",
       "image": "/images/cream-cheese/cucumber-dill-pickle.jpg"
-    },
-    {
-      "id": "white-choc-cc",
-      "name": "White Choc Raspberry",
-      "image": ""
     }
   ],
   "items": {
@@ -444,40 +424,31 @@
       {
         "id": "angel-cream-long-john",
         "name": "Angel Cream Long John",
-        "price": 2.39,
+        "price": 2.99,
         "description": "Fluffy long john filled with light angel cream",
         "image": "/images/donuts/angel-cream-long-john.jpg"
       },
       {
         "id": "maple-bacon-long-john",
         "name": "Maple Bacon Long John",
-        "price": 3.39,
+        "price": 3.99,
         "description": "Sweet maple glaze topped with crispy bacon bits",
         "image": "/images/donuts/maple-bacon.jpg",
         "badge": "Popular"
       },
       {
         "id": "glazed-twist",
-        "name": "Twists",
+        "name": "Glaze Twist",
         "price": 3.49,
         "description": "Braided golden fried dough with sweet glaze",
         "image": "/images/donuts/glazed-twist.jpg"
       },
       {
-        "id": "birthday-donut",
-        "name": "Birthday Donuts",
-        "price": 28.99,
-        "description": "Custom shaped donuts — choose icing, filling & sprinkles. Order 24 hrs in advance.",
-        "image": "/images/donuts/birthday1.jpg",
-        "badge": "Custom Order"
-      },
-      {
-        "id": "box-of-joe",
-        "name": "Box of Joe",
-        "price": 24.99,
-        "description": "A full box of freshly brewed coffee — perfect for groups",
-        "image": "/images/specialty/box-of-joe.jpg",
-        "badge": "Group Order"
+        "id": "cinnamon-twist",
+        "name": "Cinnamon Twist",
+        "price": 3.49,
+        "description": "Braided dough with sweet cinnamon and glaze",
+        "image": "/images/donuts/cinnamon-twist.jpg"
       }
     ],
     "bagels": [
@@ -493,7 +464,7 @@
         "name": "Bagel with Cream Cheese",
         "price": 4.59,
         "description": "Fresh bagel with your choice of cream cheese flavor",
-        "image": "/images/bagels/garlic-bagel.jpg",
+        "image": "/images/bagels/bagel-with-cream-cheese.png",
         "badge": "Popular"
       },
       {
@@ -523,7 +494,7 @@
         "name": "Tub of Cream Cheese",
         "price": 5.89,
         "description": "Full tub — choose any of our 11 flavors",
-        "image": "/images/bagels/egg-everything-bagel.jpg"
+        "image": "/images/cream-cheese/plain.jpg"
       }
     ],
     "breakfast": [
@@ -630,14 +601,6 @@
         "price": 8.49,
         "description": "Classic pizza sauce and melted cheese on a bagel. Add pepperoni +$0.49",
         "image": ""
-      },
-      {
-        "id": "reuben",
-        "name": "Reuben",
-        "price": 9.99,
-        "description": "Corned beef, Swiss cheese, sauerkraut & Thousand Island dressing",
-        "image": "",
-        "badge": "Chef's Pick"
       }
     ],
     "coffee": [
@@ -785,6 +748,58 @@
         "price": 1.99,
         "description": "Extra protein on any item",
         "image": "/images/extras/meat.jpg"
+      }
+    ],
+    "birthday-cake": [
+      {
+        "id": "birthday-cake-item",
+        "name": "Birthday Donuts",
+        "price": 28.99,
+        "description": "Custom shaped donuts — choose icing, filling & sprinkles. Order 24 hrs in advance.",
+        "image": "/images/donuts/birthday1.jpg",
+        "badge": "Custom Order"
+      },
+      {
+        "id": "birthday-cake-2",
+        "name": "Birthday Donuts",
+        "price": 28.99,
+        "description": "Custom shaped donuts — choose icing, filling & sprinkles. Order 24 hrs in advance.",
+        "image": "/images/donuts/birthday2.jpg",
+        "badge": "Custom Order"
+      },
+      {
+        "id": "birthday-cake-5",
+        "name": "Birthday Donuts",
+        "price": 28.99,
+        "description": "Custom shaped donuts — choose icing, filling & sprinkles. Order 24 hrs in advance.",
+        "image": "/images/donuts/birthday5.jpg",
+        "badge": "Custom Order"
+      },
+      {
+        "id": "birthday-cake-6",
+        "name": "Birthday Donuts",
+        "price": 28.99,
+        "description": "Custom shaped donuts — choose icing, filling & sprinkles. Order 24 hrs in advance.",
+        "image": "/images/donuts/birthday6.jpg",
+        "badge": "Custom Order"
+      },
+      {
+        "id": "birthday-cake-7",
+        "name": "Birthday Donuts",
+        "price": 28.99,
+        "description": "Custom shaped donuts — choose icing, filling & sprinkles. Order 24 hrs in advance.",
+        "image": "/images/donuts/birthday7.jpg",
+        "badge": "Custom Order"
+      }
+    ],
+    "box-of-joe": [
+      {
+        "id": "box-of-joe-item",
+        "name": "Box of Joe",
+        "price": 24.99,
+        "description": "A full box of freshly brewed coffee — perfect for groups",
+        "image": "/images/specialty/box-of-joe.jpg",
+        "badge": "Group Order"
       }
     ]
   }
