@@ -752,14 +752,6 @@
     ],
     "birthday-cake": [
       {
-        "id": "birthday-cake-item",
-        "name": "Birthday Donuts",
-        "price": 28.99,
-        "description": "Custom shaped donuts — choose icing, filling & sprinkles. Order 24 hrs in advance.",
-        "image": "/images/donuts/birthday1.jpg",
-        "badge": "Custom Order"
-      },
-      {
         "id": "birthday-cake-2",
         "name": "Birthday Donuts",
         "price": 28.99,
