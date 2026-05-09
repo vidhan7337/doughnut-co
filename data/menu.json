@@ -464,7 +464,7 @@
         "name": "Bagel with Cream Cheese",
         "price": 4.59,
         "description": "Fresh bagel with your choice of cream cheese flavor",
-        "image": "/images/bagels/bagel-with-cream-cheese.png",
+        "image": "/images/bagels/bagel-with-cream-cheese.jpg",
         "badge": "Popular"
       },
       {
@@ -532,7 +532,7 @@
         "name": "All-American Breakfast",
         "price": 8.99,
         "description": "Sausage, bacon, egg, cheese & cream cheese on a bagel",
-        "image": "",
+        "image": "/images/breakfast/all-american.jpg",
         "badge": "Chef's Pick"
       },
       {
@@ -540,7 +540,7 @@
         "name": "Lox Salmon & Cream Cheese",
         "price": 15.99,
         "description": "Premium lox salmon with cream cheese, tomato, onion & capers",
-        "image": "",
+        "image": "/images/breakfast/lox-salmon.jpg",
         "badge": "Premium"
       },
       {
@@ -564,7 +564,7 @@
         "name": "Turkey & Swiss",
         "price": 9.89,
         "description": "Turkey, Swiss, lettuce, tomato, onion, mustard & mayo",
-        "image": "",
+        "image": "/images/sandwiches/turkey-swiss.jpg",
         "badge": "Popular"
       },
       {
@@ -600,7 +600,7 @@
         "name": "Pizza Bagel",
         "price": 8.49,
         "description": "Classic pizza sauce and melted cheese on a bagel. Add pepperoni +$0.49",
-        "image": ""
+        "image": "/images/sandwiches/pizza-bagel.jpg"
       }
     ],
     "coffee": [
