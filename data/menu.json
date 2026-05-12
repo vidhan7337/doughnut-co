@@ -284,6 +284,11 @@
           "id": "chocolate-angel",
           "name": "Chocolate Angel",
           "image": "/images/donuts/chocolate-angel.jpg"
+        },
+        {
+          "id": "lemon",
+          "name": "Lemon",
+          "image": "/images/donuts/lemon.jpg"
         }
       ]
     }
