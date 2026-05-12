@@ -69,16 +69,6 @@
           "image": "/images/donuts/strawberry-cake.jpg"
         },
         {
-          "id": "strawberry",
-          "name": "Strawberry",
-          "image": "/images/donuts/strawberry.jpg"
-        },
-        {
-          "id": "raspberry",
-          "name": "Raspberry",
-          "image": "/images/donuts/raspberry.jpg"
-        },
-        {
           "id": "raspberry-old-fashioned",
           "name": "Raspberry Old Fashioned",
           "image": "/images/donuts/raspberry-lemon-old-fashioned.jpg"
@@ -92,11 +82,6 @@
           "id": "blueberry",
           "name": "Blueberry",
           "image": "/images/donuts/blueberry.jpg"
-        },
-        {
-          "id": "apple-cinnamon",
-          "name": "Apple Cinnamon",
-          "image": "/images/donuts/apple-cinnamon.jpg"
         },
         {
           "id": "lemon-plain-cake",
@@ -126,24 +111,9 @@
           "image": "/images/donuts/german-chocolate.jpg"
         },
         {
-          "id": "french-vanilla",
-          "name": "French Vanilla",
-          "image": "/images/donuts/french-vanilla.jpg"
-        },
-        {
           "id": "bavarian-cream",
           "name": "Bavarian Cream",
           "image": "/images/donuts/bavarian-cream.jpg"
-        },
-        {
-          "id": "angel-cream",
-          "name": "Angel Cream",
-          "image": "/images/donuts/angel-cream.jpg"
-        },
-        {
-          "id": "chocolate-angel",
-          "name": "Chocolate Angel",
-          "image": "/images/donuts/chocolate-angel.jpg"
         },
         {
           "id": "iced-jelly",
