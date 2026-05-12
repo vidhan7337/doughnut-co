@@ -69,8 +69,8 @@
           "image": "/images/donuts/strawberry-cake.jpg"
         },
         {
-          "id": "strawberry-chocolate",
-          "name": "Strawberry Chocolate",
+          "id": "strawberry",
+          "name": "Strawberry",
           "image": "/images/donuts/strawberry.jpg"
         },
         {
@@ -144,6 +144,21 @@
           "id": "chocolate-angel",
           "name": "Chocolate Angel",
           "image": "/images/donuts/chocolate-angel.jpg"
+        },
+        {
+          "id": "iced-jelly",
+          "name": "Iced Jelly",
+          "image": "/images/donuts/iced-jelly.jpg"
+        },
+        {
+          "id": "french",
+          "name": "French Cruller",
+          "image": "/images/donuts/french.jpg"
+        },
+        {
+          "id": "maple",
+          "name": "Maple",
+          "image": "/images/donuts/maple.jpg"
         }
       ]
     },
@@ -271,24 +286,34 @@
       "color": "rose",
       "items": [
         {
-          "id": "iced-jelly",
-          "name": "Iced Jelly",
-          "image": "/images/donuts/iced-jelly.jpg"
+          "id": "apple-cinnamon",
+          "name": "Apple Cinnamon",
+          "image": "/images/donuts/apple-cinnamon.jpg"
         },
         {
-          "id": "french",
-          "name": "French Cruller",
-          "image": "/images/donuts/french.jpg"
+          "id": "french-vanilla",
+          "name": "French Vanilla",
+          "image": "/images/donuts/french-vanilla.jpg"
         },
         {
-          "id": "maple",
-          "name": "Maple",
-          "image": "/images/donuts/maple.jpg"
+          "id": "raspberry",
+          "name": "Raspberry",
+          "image": "/images/donuts/raspberry.jpg"
         },
         {
-          "id": "lemon",
-          "name": "Lemon",
-          "image": "/images/donuts/lemon.jpg"
+          "id": "strawberry",
+          "name": "Strawberry",
+          "image": "/images/donuts/strawberry.jpg"
+        },
+        {
+          "id": "angel-cream",
+          "name": "Angel Cream",
+          "image": "/images/donuts/angel-cream.jpg"
+        },
+        {
+          "id": "chocolate-angel",
+          "name": "Chocolate Angel",
+          "image": "/images/donuts/chocolate-angel.jpg"
         }
       ]
     }
@@ -503,14 +528,14 @@
         "name": "Egg & Cheese",
         "price": 5.89,
         "description": "Fresh egg and melted cheese on a toasted bagel",
-        "image": ""
+        "image": "/images/breakfast/egg-cheese.jpg"
       },
       {
         "id": "bacon-egg-cheese",
         "name": "Bacon, Egg & Cheese",
         "price": 6.89,
         "description": "Crispy bacon, egg, and melted cheese on a bagel",
-        "image": "",
+        "image": "/images/breakfast/bacon-egg-cheese.jpg",
         "badge": "Popular"
       },
       {
@@ -518,14 +543,14 @@
         "name": "Sausage, Egg & Cheese",
         "price": 6.89,
         "description": "Savory sausage patty, egg, and cheese on a bagel",
-        "image": ""
+        "image": "/images/breakfast/sausage-egg-cheese.jpg"
       },
       {
         "id": "ham-egg-cheese",
         "name": "Ham, Egg & Cheese",
         "price": 6.89,
         "description": "Sliced ham, egg, and cheese on a toasted bagel",
-        "image": ""
+        "image": "/images/breakfast/ham-egg-cheese.jpg"
       },
       {
         "id": "all-american",
@@ -548,14 +573,14 @@
         "name": "Avocado Toast",
         "price": 6.99,
         "description": "Fresh creamy avocado spread on a toasted bagel",
-        "image": ""
+        "image": "/images/breakfast/avocado-toast.jpg"
       },
       {
         "id": "pbj",
         "name": "Peanut Butter & Jelly",
         "price": 3.99,
         "description": "Classic PB&J served on a fresh bagel",
-        "image": ""
+        "image": "/images/breakfast/pbj.jpg"
       }
     ],
     "sandwiches": [
@@ -572,7 +597,7 @@
         "name": "Ham & Swiss",
         "price": 9.89,
         "description": "Ham, Swiss, lettuce, tomato, onion, mustard & mayo",
-        "image": ""
+        "image": "/images/sandwiches/ham-swiss.jpg"
       },
       {
         "id": "turkey-club",
@@ -586,14 +611,14 @@
         "name": "BLT",
         "price": 8.69,
         "description": "Crispy bacon, fresh lettuce, ripe tomato & mayo",
-        "image": ""
+        "image": "/images/sandwiches/blt.jpg"
       },
       {
         "id": "veggie-avocado",
         "name": "Veggie Avocado",
         "price": 9.79,
         "description": "Avocado, lettuce, tomato, onion, spinach & cucumbers",
-        "image": ""
+        "image": "/images/sandwiches/veggie-avocado.jpg"
       },
       {
         "id": "pizza-bagel",
