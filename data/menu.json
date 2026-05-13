@@ -472,14 +472,14 @@
         "name": "Half Dozen Bagels",
         "price": 11.99,
         "description": "Six bagels — with 1 tub of cream cheese $15.99",
-        "image": "/images/bagels/sesame-bagel.jpg"
+        "image": "/images/bagels/half-dozen-bagels.jpg"
       },
       {
         "id": "bagel-bakers-dozen",
         "name": "Baker's Dozen (13)",
         "price": 19.99,
         "description": "Thirteen bagels — with 2 tubs of cream cheese $25.99",
-        "image": "/images/bagels/everything-bagel.jpg",
+        "image": "/images/bagels/bakers-dozen.jpg",
         "badge": "Best Value"
       },
       {
@@ -487,7 +487,7 @@
         "name": "Side of Cream Cheese",
         "price": 2.3,
         "description": "Choose from our 11 cream cheese flavors",
-        "image": "/images/bagels/egg-bagel.jpg"
+        "image": "/images/bagels/side-of-cream-cheese.jpg"
       },
       {
         "id": "cream-cheese-tub",
@@ -579,7 +579,7 @@
         "name": "Turkey Club",
         "price": 9.99,
         "description": "Turkey, bacon, lettuce, tomato & mayo on a bagel",
-        "image": ""
+        "image": "/images/sandwiches/turkey-club.jpg"
       },
       {
         "id": "blt",
@@ -703,7 +703,7 @@
         "price": 1.75,
         "priceLabel": "$1.75 / $2.25",
         "description": "Single $1.75 · Double $2.25",
-        "image": "/images/coffee/espresso.jpg"
+        "image": "/images/coffee/espresso-macchiato.jpg"
       }
     ],
     "extras": [
